@@ -1,0 +1,30 @@
+.conta {
+    display: flex;
+    align-items: center;
+}
+
+.pre_container {
+    height: 100px;
+    width: 100%;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ccc;
+}
+
+.pre_container span {
+    color: #cccccc;
+    text-align: center;
+    font-size: larger;
+}
+
+.pre_container img {
+    display: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
